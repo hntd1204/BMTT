@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.product-container {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.image-gallery {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.image-gallery .thumbnail img {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-gallery .thumbnail img:hover {
+    border-color: #007bff;
+}
+
+.main-image {
+    width: 50%;
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-details {
+    width: 40%;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details .rating span {
+    font-size: 14px;
+    color: gray;
+}
+
+.product-details .price {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.product-details .discount {
+    color: red;
+    margin-right: 10px;
+}
+
+.product-details .current-price {
+    color: #e60000;
+    font-weight: bold;
+}
+
+.product-details .original-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.quantity-control button {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+}
+
+.add-to-cart {
+    display: block;
+    width: 100%;
+    background-color: #b30000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}

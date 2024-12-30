@@ -1,0 +1,12 @@
+FAILED LOGIN - Email: user@example.com
+Password: passưord123
+
+FAILED LOGIN - Email: hutech@gmail.com
+Password: hutech123
+
+SUCCESS LOGIN - Email: user@example.com
+Password: password123
+
+SUCCESS LOGIN - Email: user@example.com
+Password: password123
+
