@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zalo Login</title>
+        <link rel="stylesheet" href="./zalo.css">
+    </head>
+    <body>
+        <div class="login-container">
+            <h1>Zalo</h1>
+            <p>Đăng nhập tài khoản Zalo để kết nối với ứng dụng Zalo Web</p>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="text" id="phone" name="phone" placeholder="+84">
+                </div>
+                <button type="button" id="sendOtpButton">Gửi OTP</button>
+            </form>
+
+            <form id="otpForm" style="display: none;">
+                <div class="input-group">
+                    <label for="otp">Nhập mã OTP</label>
+                    <input type="text" id="otp" name="otp" placeholder="Mã OTP">
+                </div>
+                <button type="button" id="verifyOtpButton">Xác nhận OTP</button>
+            </form>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
